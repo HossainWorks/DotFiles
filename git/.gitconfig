@@ -1,0 +1,9 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Nasir Hossain
+	email = kitcodail@gmail.com
+# Please adapt and uncomment the following lines:
+#	name = Nasir Hossain
+#	email = kitcodail@debian-BULLSEYE-live-builder-AMD64
+[core]
+	editor = nvim
