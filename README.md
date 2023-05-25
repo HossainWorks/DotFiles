@@ -1,3 +1,5 @@
+**ALL THE PROMISED FEATURES DOESN'T EXIST HERE!**
+
 # DotFiles
 
 This repository contains my personal dotfiles, which are the configuration files for various command-line tools and applications. These dotfiles are essential for setting up my preferred development environment quickly and efficiently.
