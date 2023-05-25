@@ -1,5 +1,5 @@
 ---@type ChadrcConfig 
  local M = {}
- M.ui = {theme = 'vscode_dark'}
+ M.ui = {theme = 'everforest'}
  M.plugins = 'custom.plugins'
  return M

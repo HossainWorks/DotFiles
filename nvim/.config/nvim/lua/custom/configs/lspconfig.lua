@@ -1,3 +1,5 @@
+local current_file = vim.fn.expand('%:p')
+
 local on_attach = require("plugins.configs.lspconfig").on_attach
 local capabilities = require("plugins.configs.lspconfig").capabilities
 
@@ -10,3 +12,10 @@ for _, lsp in ipairs(servers) do
     capabilities = capabilities,
   }
 end
+
+if not string.find(current_file, "premake5.lua") then
+  vim.cmd("LspStart lua_ls")
+else
+  print("For premake5.lua files, lua_ls is disabled. Type ':LspStart lua_ls' to force start")
+end
+
