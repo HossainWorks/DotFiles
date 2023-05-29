@@ -6,6 +6,8 @@ This repository contains my personal dotfiles, which are the configuration files
 
 ## Installation
 
+**Note: Install script won't replace any existing configuration file(s) or folder(s). Backing up existing configurations will be implemented in the future, along with the uninstall script.**
+
 To install my dotfiles and configure your system accordingly, follow these steps:
 ```bash
 # Clone this repository to your local machine
@@ -31,6 +33,8 @@ Feel free to explore and modify the dotfiles according to your preferences. You 
 
 ## Uninstallation
 
+**Note: Not Yet Implemented!**
+
 If you wish to remove the dotfiles from your system and restore the previous configurations that were backed up during the installation process, follow these steps:
 ```bash
 # Navigate to the cloned repository
@@ -49,6 +53,6 @@ Feel free to explore, fork, and adapt these dotfiles for your own personal use. 
 
 ## License
 
-This repository is licensed under the [Unlicense](https://chat.openai.com/UNLICENSE). Feel free to use and distribute the dotfiles as per the terms of this license.
-
 **Note:** The dotfiles in this repository are tailored to my personal preferences and workflow. It is advisable to review and modify them before using them on your own system. Use them at your own risk.
+
+This repository is licensed under the [Unlicense](https://chat.openai.com/UNLICENSE). Feel free to use and distribute the dotfiles as per the terms of this license.
